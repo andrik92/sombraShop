@@ -1,0 +1,22 @@
+.carousel .item {
+    width: 100%; /*slider width*/
+   /* max-height: 600px;*/
+    max-height:100% /*slider height*/
+}
+.carousel .item img {
+    max-width: 100%; /*img width*/
+    hieght: 100%;
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    /*top: 50%;*/
+}
+/*full width container*/
+@media (/*max-width: 767px*/) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}

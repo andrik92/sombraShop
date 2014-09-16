@@ -1,0 +1,73 @@
+.image {
+	position: relative;
+	font-size: 0;
+	text-align: center;
+	width: 266px; /* Container's dimensions */
+	height: 260px;
+	
+}
+.imageLarge {
+	position: relative;
+	font-size: 0;
+	text-align: center;
+	width: 293px; /* Container's dimensions */
+	height: 260px;
+	margin-right: -4;
+}
+
+.imageSmall {
+	/*position: relative;*/
+	font-size: 0;
+	text-align: center;
+	/*horizontal-align: middle;*/
+	width: 90px; /* Container's dimensions */
+	height: 90px;
+}
+
+.trickSmall {
+	/*.position: relative;*/
+	display: inline-block;
+	vertical-align: middle;
+	height: 70px;
+}
+
+.imageMid {
+	font-size: 0;
+	text-align: center;
+	width: 168px;
+	height: 160px;
+}
+
+.trickMid {
+	display: inline-block;
+	vertical-align: middle;
+	height: 160px;
+}
+
+img {
+	/*position: relative;*/
+	/*display: inline-block;*/
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.trick {
+	/*position: relative;*/
+	display: inline-block;
+	vertical-align: middle;
+	height: 250px;
+}
+
+pos {
+	background-color: red;
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+.resizeG {
+	font-size: 44px;
+	z-index: +1;
+}
+

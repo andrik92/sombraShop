@@ -1,0 +1,14 @@
+.control-group.center{ float:none;margin:0 auto;width:400px;margin-bottom:20px;}
+.control-group .field {width:140px;float:left}
+.control-group .l {width:120px;float:left;line-height: 29px;}
+.row-fluid .offset4{
+    display: block!important;
+    float: none!important;
+    width: 100%!important;
+    margin-left: 0!important;
+    padding:0 80px;
+}
+@media (max-width: 497px){
+    .control-group.center {text-align: center;float:inherit;width: auto}
+    .control-group .field,.control-group .l {width:120px;float:none;text-align: center;width: auto}
+}

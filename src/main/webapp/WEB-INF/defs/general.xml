@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="common" template="/WEB-INF/layouts/classic.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp" />
+	</definition>
+
+	<definition name="index" extends="common">
+		<put-attribute name="title" value="SombraShop" />
+		<put-attribute name="body" value="/WEB-INF/views/index.jsp" />
+	</definition>
+
+	<definition name="shop" extends="common">
+		<put-attribute name="title" value="SombraShop" />
+		<put-attribute name="body" value="some" />
+	</definition>
+
+	<definition name="lot" extends="common">
+		<put-attribute name="title" value="Lot Page" />
+		<put-attribute name="body" value="/WEB-INF/views/lot.jsp" />
+	</definition>
+
+	<definition name="" extends="shop">
+		<put-attribute name="title" value="Sombra" />
+		<put-attribute name="body" value="/WEB-INF/views/all_lots.jsp" />
+	</definition>
+
+	<definition name="userRegister" extends="common">
+		<put-attribute name="title" value="Sing Up" />
+		<put-attribute name="body" value="/WEB-INF/views/userRegister.jsp" />
+	</definition>
+
+
+	<definition name="editProfile" extends="common">
+		<put-attribute name="title" value="Edit profile" />
+		<put-attribute name="body" value="/WEB-INF/views/editProfile.jsp" />
+	</definition>
+
+	<definition name="user-detail" extends="common">
+		<put-attribute name="title" value="User detail" />
+		<put-attribute name="body" value="/WEB-INF/views/user-detail.jsp" />
+	</definition>
+
+	<definition name="success_registration" extends="common">
+		<put-attribute name="title" value="Registration is successfull" />
+		<put-attribute name="body"
+			value="/WEB-INF/views/success_registration.jsp" />
+	</definition>
+
+	<definition name="login" extends="common">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body" value="/WEB-INF/views/login.jsp" />
+	</definition>
+
+	<definition name="parent_categories" extends="common">
+		<put-attribute name="title" value="Category" />
+		<put-attribute name="body" value="/WEB-INF/views/categoryParent.jsp" />
+	</definition>
+
+	<definition name="subCategories" extends="parent_categories">
+		<put-attribute name="title" value="Category" />
+		<put-attribute name="body" value="/WEB-INF/views/categorySub.jsp" />
+	</definition>
+
+	<definition name="add_category" extends="common">
+		<put-attribute name="title" value="addCategory" />
+		<put-attribute name="body" value="/WEB-INF/views/categoryAdd.jsp" />
+	</definition>
+
+	<definition name="all_categories" extends="common">
+		<put-attribute name="title" value="allCategories" />
+		<put-attribute name="body" value="/WEB-INF/views/categoryAll.jsp" />
+	</definition>
+
+	<definition name="test" extends="common">
+		<put-attribute name="title" value="allCategories" />
+		<put-attribute name="body" value="/WEB-INF/views/test.jsp" />
+	</definition>
+
+	<definition name="selectCategory" extends="common">
+		<put-attribute name="title" value="allCategories" />
+		<put-attribute name="body" value="/WEB-INF/views/categorySelect.jsp" />
+	</definition>
+
+	<definition name="cart" extends="common">
+		<put-attribute name="title" value="My bbay bids" />
+		<put-attribute name="body" value="deals" />
+	</definition>
+
+	<definition name="deals" template="/WEB-INF/views/cart.jsp">
+		<put-attribute name="user_bar" value="/WEB-INF/views/user_bar.jsp" />
+		<put-attribute name="body" value="deals" />
+	</definition>
+
+	<definition name="admEditUsers" extends="common">
+		<put-attribute name="title" value="Admin edit users" />
+		<put-attribute name="body" value="/WEB-INF/views/admEditUsers.jsp" />
+	</definition>
+
+	<definition name="admEditCategory" extends="common">
+		<put-attribute name="title" value="Admin edit categories" />
+		<put-attribute name="body" value="/WEB-INF/views/admEditCategory.jsp" />
+	</definition>
+
+	<definition name="lotCreation" extends="common">
+		<put-attribute name="title" value="Create Lot" />
+		<put-attribute name="body" value="/WEB-INF/views/lotCreation.jsp" />
+	</definition>
+
+	<definition name="admEditCities" extends="common">
+		<put-attribute name="title" value="Admin edit cities" />
+		<put-attribute name="body" value="/WEB-INF/views/admEditCities.jsp" />
+	</definition>
+
+	<definition name="uploadUserImage" extends="common">
+		<put-attribute name="title" value="Create Lot" />
+		<put-attribute name="body" value="/WEB-INF/views/userImageUpload.jsp" />
+	</definition>
+
+	<definition name="searchLots" extends="common">
+
+		<put-attribute name="title" value="Lots" />
+		<put-attribute name="body" value="/WEB-INF/views/selectLots.jsp" />
+	</definition>
+
+</tiles-definitions>

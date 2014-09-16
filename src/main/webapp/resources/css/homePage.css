@@ -1,0 +1,24 @@
+.left-sidebar-title {
+	width: 100%;
+	height: 30px;
+	text-align:center;
+}
+.main-block-title {
+	width: 100%;
+	height: 30px;
+	text-align:center;
+}
+.lst-value {
+
+}
+.mbt-value {
+
+}
+
+#reLoad {
+	display: inline;
+}
+
+button {
+	display:inline;
+}
